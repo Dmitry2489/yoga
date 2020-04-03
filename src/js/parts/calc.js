@@ -19,11 +19,9 @@ function calc() {
             totalValue.innerHTML = total;
         }
     });
-    console.log(typeof (restDays.value));
     restDays.addEventListener('change', function () {
         daysSum = +this.value;
         total = (daysSum + personsSum) * 4000;
-        console.log(typeof (restDays.value));
 
 
         if (persons.value == '') {

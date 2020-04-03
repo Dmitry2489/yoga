@@ -1,0 +1,30 @@
+{
+  "name": "yoga",
+  "version": "1.0.0",
+  "description": "landing page yoga",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "native",
+    "webpack"
+  ],
+  "author": "Dmitry Klitsunov",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.8.7",
+    "babel-loader": "^8.1.0"
+  }
+}

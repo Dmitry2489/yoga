@@ -1,7 +1,7 @@
 function tamer(){
     //Tamer start
 
-    let deadline = '2020-05-01';
+    let deadline = '2020-05-30';
 
 
     // * получаем время  до deadline 

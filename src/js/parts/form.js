@@ -23,7 +23,7 @@ function form() {
                 return new Promise(function (resolve, reject) {
 
                     let request = new XMLHttpRequest();
-                    request.open('POST', '../server.php');
+                    request.open('POST', '../../server.php');
                     request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
                     request.send(data);
 
